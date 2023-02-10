@@ -1,0 +1,17 @@
+<div class='container container-content-centered'>
+    <div class='paper'>
+          <p class="typography-centered typography-1 sign-in-form__title">Bxoд</p>
+          <div class="sign-in-form__input-login">
+            {{> textfield label="Логин" type="text" value="ivanivanov"}}
+          </div>
+          <div class="sign-in-form__input-password">
+            {{> textfield label="Пароль" type="password" value="ivanivanov"}}
+          </div>
+           <div class="sign-in-form__button">
+            {{> button onclick="goToPage('chat')" class='contained-button' content="Авторизоваться"}}
+          </div>
+          <div class="typography-centered">
+             {{> link onclick="goToPage('signUp')" content="Нет аккаунта?"}}
+          </div>
+    </div>
+</div>
