@@ -5,7 +5,7 @@
     "scripts": {
         "dev": "parcel static/index.html -p 3000",
         "start": "parcel static/index.html -p 3000",
-        "build": "parcel build index.html"
+        "build": "parcel build static/index.html"
     },
     "keywords": [],
     "author": "Begimay Abdraimova",
