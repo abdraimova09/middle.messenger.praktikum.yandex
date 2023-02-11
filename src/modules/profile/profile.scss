@@ -1,0 +1,44 @@
+.profile {
+    display: flex;
+    height: 100%;
+
+    &__info {
+        width: calc(100% - 64px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &-content {
+            width: 510px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        &-rows {
+            width: 100%;
+            margin-bottom: 60px;
+        }
+        &_firstname {
+            font-weight: 600;
+            margin-bottom: 50px;
+            font-size: 16px;
+        }
+        &_photo {
+            margin-bottom: 21px;
+        }
+    }
+    &__actions {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        button {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            &:last-child {
+                color: #ff0000;
+            }
+        }
+    }
+}

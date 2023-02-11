@@ -1,0 +1,17 @@
+.avatar-large-img {
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    cursor: pointer;
+}
+
+.avatar-large-img-not-found {
+    background: #efefef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.change-avatar-input {
+    display: none;
+}

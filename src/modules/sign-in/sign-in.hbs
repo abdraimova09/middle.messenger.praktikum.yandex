@@ -1,0 +1,11 @@
+{{#>container centered='true'}}
+   {{#>paper}}
+     <form class="sign-in-form">
+        {{> typography class="typography-1" content="Bxoд"}}
+        {{> textfield label="Логин" type="text" value="ivanivanov" name='login'}}
+        {{> textfield label="Пароль" type="password" value="ivanivanov" name='password'}}
+        {{> button onclick="navigate('/chat')" class='contained-button' content="Авторизоваться"}}
+        {{> link onclick="navigate('/sign-up')" content="Нет аккаунта?"}}
+     </form>
+    {{/paper}}
+{{/container}}

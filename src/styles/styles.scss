@@ -4,34 +4,25 @@
 @import '../components/text-field/text-field.scss';
 @import '../components/button/button.scss';
 @import '../components/link/link.scss';
+@import '../components/paper/paper.scss';
+@import '../components/container/container.scss';
+@import '../components/divider/divider.scss';
+@import '../components/avatar/avatar.scss';
+@import '../components/contacts-list-item/contacts-list-item.scss';
+@import '../components/message/message.scss';
+@import '../components/info-row/info-row.scss';
+@import '../components/avatar-large/avatar-large.scss';
+@import '../components/button-go-back/button-go-back.scss';
 
-@import '../pages/sign-in/sign-in.scss';
-@import '../pages/sign-up/sign-up.scss';
-@import '../pages/chat/chat.scss';
+@import '../modules/sign-in/sign-in.scss';
+@import '../modules/sign-up/sign-up.scss';
+@import '../modules/chat/chat.scss';
+@import '../modules/profile/profile.scss';
+@import '../modules/error-500/error-500.scss';
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
-}
-
-.paper {
-    background: #ffffff;
-    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.14);
-    border-radius: 12px;
-    padding: 50px 30px 30px;
-    width: 340px;
-}
-
-.container {
-    width: 100vw;
-    height: 100vh;
-}
-
-.container-content-centered {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
