@@ -1,6 +1,7 @@
+{{> navbar}}
 {{#>container centered='true'}}
     {{#>paper}}
-     <form class="sign-up-form">
+    <form class="sign-up-form">
         {{> typography class="typography-1" content="Регистрация"}}
         {{> textfield label="Почта" type="text" value="pochta@yandex.ru" name='email'}}
         {{> textfield label="Логин" type="text" value="ivanivanov" name='login'}}
@@ -11,6 +12,6 @@
         {{> textfield label="Пароль (еще раз)" type="password" value="ivanivanov" name='password'}}
         {{> button class='contained-button'  onclick="navigate('/chat')"  content="Зарегистрироваться"}}
         {{> link onclick="navigate('/sign-in')" content="Войти"}}
-     </form>
+    </form>
     {{/paper}}
 {{/container}}

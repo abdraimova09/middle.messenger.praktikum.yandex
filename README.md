@@ -1,6 +1,6 @@
 ## Описание
 
-## <a href="" target="_blank">Тут будет ссылка</a>
+## <a href="https://resilient-cobbler-d52b09.netlify.app/" target="_blank">Мессенджер</a>
 
 Учебный проект от Яндекс Практикум - простой и удобный мессенджер с базовым функционалом.
 В проекте использованы:
@@ -25,12 +25,17 @@
 -   `npm run start` — запуск приложения на http://localhost:3000,
 -   `npm run dev` — запуск приложения в режиме разработки,
 -   `npm run build` — сборка стабильной версии.
+-   `node server.js` — раздача статики
 
 ## Ветки репозитория
 
 -   _main_ — стабильная версия,
--   _deploy_ — версия, задеплоенная на <a href="" target="_blank">Netlify</a>,
+-   _deploy_ — версия, задеплоенная на <a href="https://resilient-cobbler-d52b09.netlify.app/" target="_blank">Netlify</a>,
 -   _sprint_i_ — ветка i-го спринта (для разработчиков).
+
+## Pull requests
+
+<a href="https://github.com/abdraimova09/middle.messenger.praktikum.yandex/pull/4" target="_blank">Sprint 1</a>
 
 ## UI/UX
 
