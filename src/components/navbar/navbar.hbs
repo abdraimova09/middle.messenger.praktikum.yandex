@@ -1,0 +1,28 @@
+<nav class="navbar">
+    <ul>
+        <li>
+            {{> link onclick="navigate('/sign-in')" content="Sign in"}}
+        </li>
+        <li>
+            {{> link onclick="navigate('/sign-up')" content="Sign up"}}
+        </li>
+        <li>
+            {{> link onclick="navigate('/chat')" content="Chat"}}
+        </li>
+        <li>
+            {{> link onclick="navigate('/profile')" content="Profile"}}
+        </li>
+            <li>
+            {{> link onclick="navigate('/change-password')" content="Change password"}}
+        </li>
+        <li>
+            {{> link onclick="navigate('/change-profile')" content="Change profile"}}
+        </li>
+        <li>
+            {{> link onclick="navigate('/error-404')" content="404 error"}}
+        </li>
+        <li>
+            {{> link onclick="navigate('/error-500')" content="500 error"}}
+        </li>
+    </ul>
+</nav>

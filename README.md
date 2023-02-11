@@ -33,6 +33,10 @@
 -   _deploy_ — версия, задеплоенная на <a href="https://resilient-cobbler-d52b09.netlify.app/" target="_blank">Netlify</a>,
 -   _sprint_i_ — ветка i-го спринта (для разработчиков).
 
+## Pull requests
+
+<a href="https://github.com/abdraimova09/middle.messenger.praktikum.yandex/pull/4" target="_blank">Sprint 1</a>
+
 ## UI/UX
 
 -   <a href="https://www.figma.com/file/jF5fFFzgGOxQeB4CmKWTiE/Chat_external_link?node-id=1%3A2&t=eFw1TID8GuPjIyFY-0" target="_blank" title="Mockups">Прототипы приложения (Ссылка на фигму)</a>
