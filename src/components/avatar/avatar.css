@@ -1,0 +1,12 @@
+.avatar-img {
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.avatar-img-found {
+  background: #efefef;
+}
+/*# sourceMappingURL=avatar.css.map */

@@ -1,0 +1,23 @@
+.contained-button {
+  height: 37px;
+  background: #3369f3;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: 500;
+  font-size: 13px;
+  padding: 12px 70px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.text-button {
+  color: #3369f3;
+  font-weight: 500;
+  font-size: 13px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+/*# sourceMappingURL=button.css.map */

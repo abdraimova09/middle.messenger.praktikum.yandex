@@ -1,0 +1,20 @@
+.sign-up-form {
+  text-align: center;
+}
+
+.sign-up-form p {
+  margin-bottom: 40px;
+}
+
+.sign-up-form div:not(:nth-child(8)) {
+  margin-bottom: 16px;
+}
+
+.sign-up-form div:nth-child(8) {
+  margin-bottom: 47px;
+}
+
+.sign-up-form button {
+  margin-bottom: 14px;
+}
+/*# sourceMappingURL=sign-up.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,iBAAiB,CAAC;EACd,aAAa,EAAE,GAAG;EAClB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,MAAM,EAAE,OAAO;CAClB;;AAED,AAAA,2BAA2B,CAAC;EACxB,UAAU,EAAE,OAAO;EACnB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EACnB,MAAM,EAAE,OAAO;CAClB;;AACD,AAAA,oBAAoB,CAAC;EACjB,OAAO,EAAE,IAAI;CAChB",
+    "sources": [
+        "avatar-large.scss"
+    ],
+    "names": [],
+    "file": "avatar-large.css"
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,MAAM,CAAC;EACH,UAAU,EAAE,OAAO;EACnB,UAAU,EAAE,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,mBAAmB;EAC3C,aAAa,EAAE,IAAI;EACnB,OAAO,EAAE,cAAc;EACvB,KAAK,EAAE,KAAK;CACf",
+    "sources": [
+        "paper.scss"
+    ],
+    "names": [],
+    "file": "paper.css"
+}
