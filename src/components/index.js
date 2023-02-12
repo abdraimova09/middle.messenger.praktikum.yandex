@@ -15,7 +15,6 @@ import message from './message/message.hbs';
 import infoRow from './info-row/info-row.hbs';
 import navbar from './navbar/navbar.hbs';
 import modal from './modal/modal.hbs';
-import modalAddUser from './modal-add-user/modal-add-user.hbs';
 
 Handlebars.registerPartial('container', container);
 Handlebars.registerPartial('paper', paper);
@@ -32,4 +31,3 @@ Handlebars.registerPartial('message', message);
 Handlebars.registerPartial('infoRow', infoRow);
 Handlebars.registerPartial('navbar', navbar);
 Handlebars.registerPartial('modal', modal);
-Handlebars.registerPartial('modalAddUser', modalAddUser);
