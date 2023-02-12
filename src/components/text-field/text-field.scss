@@ -9,7 +9,7 @@
     top: 50%;
     transform: translateY(-50%);
     background-color: white;
-    color: #999999;
+    color: $color_grey;
     transition: 0.1s ease-out;
     transform-origin: left top;
     pointer-events: none;
@@ -30,10 +30,10 @@
     width: 100%;
 }
 .text-field-input:focus {
-    border-color: #3369f3;
+    border-color: $color_primary;
 }
 .text-field-input:focus + .text-field-label {
-    color: #3369f3;
+    color: $color_primary;
     top: 0;
     transform: translateY(-50%) scale(0.9);
 }

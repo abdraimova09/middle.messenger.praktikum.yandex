@@ -2,7 +2,7 @@
     display: flex;
     &__sidebar {
         width: 310px;
-        background: #fbfbfb;
+        background: $bgcolor_light_grey;
         border-right: 1px solid #eaeaea;
         &__search-block {
             height: 102px;
@@ -12,7 +12,7 @@
             align-items: flex-end;
             justify-content: space-between;
             &__profile {
-                color: #999999;
+                color: $color_grey;
                 font-weight: 500;
                 font-size: 12px;
                 cursor: pointer;
@@ -26,7 +26,7 @@
                 outline: none;
                 padding: 10px;
                 &::placeholder {
-                    color: #999999;
+                    color: $color_grey;
                     font-weight: 500;
                     text-align: center;
                 }
@@ -65,7 +65,7 @@
         }
         &__date {
             text-align: center;
-            color: #999999;
+            color: $color_grey;
             font-size: 12px;
             margin-bottom: 38px;
         }
@@ -84,7 +84,7 @@
                 padding: 10px;
             }
             input::placeholder {
-                color: #999999;
+                color: $color_grey;
                 font-weight: 500;
                 text-align: center;
             }

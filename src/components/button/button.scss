@@ -1,6 +1,6 @@
 .contained-button {
     height: 37px;
-    background: #3369f3;
+    background: $color_primary;
     border-radius: 8px;
     border: none;
     outline: none;
@@ -12,7 +12,7 @@
     width: 100%;
 }
 .text-button {
-    color: #3369f3;
+    color: $color_primary;
     font-weight: 500;
     font-size: 13px;
     background: none;

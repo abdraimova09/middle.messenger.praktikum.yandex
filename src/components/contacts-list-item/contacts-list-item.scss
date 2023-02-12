@@ -24,14 +24,14 @@
     }
     &_last-message {
         font-size: 12px;
-        color: #999999;
+        color: $color_grey;
     }
     &_time {
         font-size: 9px;
-        color: #999999;
+        color: $color_grey;
     }
     &_message-count {
-        background: #3369f3;
+        background: $color_primary;
         padding: 4px;
         border-radius: 50%;
         font-size: 11px;

@@ -14,6 +14,7 @@ import contactsListItem from './contacts-list-item/contacts-list-item.hbs';
 import message from './message/message.hbs';
 import infoRow from './info-row/info-row.hbs';
 import navbar from './navbar/navbar.hbs';
+import modal from './modal/modal.hbs';
 
 Handlebars.registerPartial('container', container);
 Handlebars.registerPartial('paper', paper);
@@ -29,3 +30,4 @@ Handlebars.registerPartial('contactsListItem', contactsListItem);
 Handlebars.registerPartial('message', message);
 Handlebars.registerPartial('infoRow', infoRow);
 Handlebars.registerPartial('navbar', navbar);
+Handlebars.registerPartial('modal', modal);
