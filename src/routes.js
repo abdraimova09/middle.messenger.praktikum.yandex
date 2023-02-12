@@ -6,8 +6,8 @@ import changeProfile from './pages/change-profile-page';
 import changePassword from './pages/change-password-page';
 import error404 from './pages/error-404-page';
 import error500 from './pages/error-500-page';
-import modalAddUser from './pages/modal-add-user';
-import modalDeleteUser from './pages/modal-delete-user';
+// import modalAddUser from './pages/modal-add-user';
+// import modalDeleteUser from './pages/modal-delete-user';
 
 export const ROUTES = {
     '/sign-in': signIn,
@@ -18,6 +18,6 @@ export const ROUTES = {
     '/change-password': changePassword,
     '/error-404': error404,
     '/error-500': error500,
-    '/add-user-modal': modalAddUser,
-    '/delete-user-modal': modalDeleteUser,
+    // '/add-user-modal': modalAddUser,
+    // '/delete-user-modal': modalDeleteUser,
 };
