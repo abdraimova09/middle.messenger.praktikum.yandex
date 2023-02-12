@@ -1,0 +1,8 @@
+{{> navbar}}
+{{#>modal}}
+    <div class="modal-add-user">
+        {{> typography class="typography-2" content="Добавить пользователя"}}
+        {{> textfield label="Логин" type="text" value="ivanivanov" name='login'}}
+        {{> button class='contained-button'  onclick="navigate('/chat')"  content="Добавить"}}
+    </div>
+{{/modal}}
