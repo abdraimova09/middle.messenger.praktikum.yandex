@@ -6,11 +6,11 @@
     margin-top: 10px;
     font-size: 13px;
     &-grey {
-        color: #999999;
+        color: $color_grey;
     }
     &-input {
         border: none;
-        color: #999999;
+        color: $color_grey;
         text-align: right;
         outline: none;
         width: 80%;
