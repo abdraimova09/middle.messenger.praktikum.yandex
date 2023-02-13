@@ -1,0 +1,30 @@
+{{#>container }}
+    {{> navbar}}
+    <div class="profile">
+        {{> buttonGoBack onclick="navigate('/profile')" }}        
+        <div class="profile__info">
+            <div class="profile__info-content">
+                <div class="profile__info_photo">
+                    {{> avatarLarge }}        
+                </div>
+                <p class="profile__info_firstname">Иван</p>
+                <form onsubmit="event.preventDefault(); navigate('/profile')" >
+                    <div class="profile__info-rows">
+                        {{> infoRow input='true' first="Почта" second="pochta@yandex.ru" name='email'  type='text' }}        
+                        {{> divider horizontal='true'}}
+                        {{> infoRow input='true' first="Логин" second="ivanivanov" name='login' type='text' }}        
+                        {{> divider horizontal='true'}}  
+                        {{> infoRow input='true' first="Имя" second="Иван" name='first_name' type='text' }}        
+                        {{> divider horizontal='true'}}  
+                        {{> infoRow input='true' first="Фамилия" second="Иванов" name='second_name' type='text' }}        
+                        {{> divider horizontal='true'}}  
+                        {{> infoRow input='true' first="Имя в чате" second="Иван" name='display_name' type='text' }}        
+                        {{> divider horizontal='true'}}  
+                        {{> infoRow input='true' first="Телефон"second="+7(909)9673030" name='phone' type='text' }}      
+                    </div>  
+                    {{> button type='submit' class='contained-button' content="Сохранить"}}
+                </form>
+            </div>
+        </div>
+    </div>
+{{/container}}

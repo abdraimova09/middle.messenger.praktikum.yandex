@@ -1,0 +1,15 @@
+.sign-up-form {
+    text-align: center;
+    p {
+        margin-bottom: 40px;
+    }
+    div:not(:nth-child(8)) {
+        margin-bottom: 16px;
+    }
+    div:nth-child(8) {
+        margin-bottom: 47px;
+    }
+    button {
+        margin-bottom: 14px;
+    }
+}

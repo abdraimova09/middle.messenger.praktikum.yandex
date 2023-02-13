@@ -1,0 +1,43 @@
+.text-field {
+    position: relative;
+}
+
+.text-field-label {
+    position: absolute;
+    font-size: 1rem;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: white;
+    color: $color_grey;
+    transition: 0.1s ease-out;
+    transform-origin: left top;
+    pointer-events: none;
+    font-size: 10px;
+}
+.text-field-input {
+    font-size: 1rem;
+    outline: none;
+    border-bottom: 1px solid gray;
+    padding-bottom: 7px;
+    padding-top: 8px;
+    font-size: 13px;
+    color: black;
+    transition: 0.1s ease-out;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    width: 100%;
+}
+.text-field-input:focus {
+    border-color: $color_primary;
+}
+.text-field-input:focus + .text-field-label {
+    color: $color_primary;
+    top: 0;
+    transform: translateY(-50%) scale(0.9);
+}
+.text-field-input:not(:placeholder-shown) + .text-field-label {
+    top: 0;
+    transform: translateY(-50%) scale(0.9);
+}

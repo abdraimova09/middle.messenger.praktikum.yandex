@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import './theme.scss';
+
+@import '../components/typography/typography.scss';
+@import '../components/text-field/text-field.scss';
+@import '../components/button/button.scss';
+@import '../components/link/link.scss';
+@import '../components/paper/paper.scss';
+@import '../components/container/container.scss';
+@import '../components/divider/divider.scss';
+@import '../components/avatar/avatar.scss';
+@import '../components/contacts-list-item/contacts-list-item.scss';
+@import '../components/message/message.scss';
+@import '../components/info-row/info-row.scss';
+@import '../components/avatar-large/avatar-large.scss';
+@import '../components/button-go-back/button-go-back.scss';
+@import '../components/navbar/navbar.scss';
+@import '../components/modal/modal.scss';
+@import '../modules/modal-add-user/modal-add-user.scss';
+
+@import '../modules/sign-in/sign-in.scss';
+@import '../modules/sign-up/sign-up.scss';
+@import '../modules/chat/chat.scss';
+@import '../modules/profile/profile.scss';
+@import '../modules/error-500/error-500.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}

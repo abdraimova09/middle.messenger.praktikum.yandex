@@ -1,0 +1,9 @@
+{{#if centered  }}
+<main class='container container-content-centered'>
+    {{> @partial-block }}
+</main>
+{{ else }}
+<main class='container'>
+    {{> @partial-block }}
+</main>
+{{/if}}

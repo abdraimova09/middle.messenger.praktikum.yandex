@@ -1,0 +1,34 @@
+{{#>container }}
+    {{> navbar}}
+    <div class="profile">
+        {{> buttonGoBack onclick="navigate('/chat')" }}        
+        <div class="profile__info">
+            <div class="profile__info-content">
+                <div class="profile__info_photo">
+                    {{> avatarLarge }}        
+                </div>
+                <p class="profile__info_firstname">Иван</p>
+                <div class="profile__info-rows">
+                    {{> infoRow first="Почта" second="pochta@yandex.ru" }}        
+                    {{> divider horizontal='true'}}
+                    {{> infoRow first="Логин" second="ivanivanov" }}        
+                    {{> divider horizontal='true'}}  
+                    {{> infoRow first="Имя" second="Иван" }}        
+                    {{> divider horizontal='true'}}  
+                    {{> infoRow first="Фамилия" second="Иванов" }}        
+                    {{> divider horizontal='true'}}  
+                    {{> infoRow first="Имя в чате" second="Иван" }}        
+                    {{> divider horizontal='true'}}  
+                    {{> infoRow first="Телефон"second="+7(909)9673030" }}        
+                </div>
+                <div class="profile__actions">
+                    {{> button onclick="navigate('/change-profile')" class='text-button' content="Изменить данные"}}
+                    {{> divider horizontal='true'}}  
+                    {{> button onclick="navigate('/change-password')" class='text-button' content="Изменить пароль"}}
+                    {{> divider horizontal='true'}}  
+                    {{> button onclick="navigate('/sign-in')" class='text-button' content="Выйти"}}
+                </div>
+            </div>
+        </div>
+    </div>
+{{/container}}

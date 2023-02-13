@@ -1,0 +1,44 @@
+.avatar-large-img {
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    cursor: pointer;
+}
+
+.avatar-large-img-not-found {
+    background: #efefef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.change-avatar-input {
+    display: none;
+}
+
+.avatar-block {
+    position: relative;
+    & > label > .select-img-text {
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.487);
+        top: 0;
+        right: 0;
+        border-radius: 50%;
+        width: 130px;
+        height: 130px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: $bgcolor_white;
+        font-size: 13px;
+        padding: 33px;
+        cursor: pointer;
+        display: none;
+    }
+    &:hover {
+        & > label > .select-img-text {
+            display: flex;
+        }
+    }
+}

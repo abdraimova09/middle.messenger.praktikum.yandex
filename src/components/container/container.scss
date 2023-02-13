@@ -1,0 +1,11 @@
+.container {
+    width: 100vw;
+    height: calc(100vh - 50px);
+}
+
+.container-content-centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

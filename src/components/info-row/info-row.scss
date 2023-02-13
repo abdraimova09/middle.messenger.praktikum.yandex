@@ -1,0 +1,18 @@
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 13px;
+    &-grey {
+        color: $color_grey;
+    }
+    &-input {
+        border: none;
+        color: $color_grey;
+        text-align: right;
+        outline: none;
+        width: 80%;
+    }
+}

@@ -1,0 +1,8 @@
+{{> navbar}}
+{{#>modal}}
+    <form onsubmit="event.preventDefault();navigate('/chat')" class="modal-add-user">
+        {{> typography class="typography-2" content="Удалить пользователя"}}
+        {{> textfield label="Логин" type="text" value="ivanivanov" name='login'}}
+        {{> button class='contained-button' type='submit' content="Удалить"}}
+    </form>
+{{/modal}}

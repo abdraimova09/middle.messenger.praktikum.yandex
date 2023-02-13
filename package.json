@@ -1,0 +1,24 @@
+{
+    "name": "middle.messenger.praktikum.yandex",
+    "version": "1.0.0",
+    "description": "middle.messenger.praktikum.yandex",
+    "scripts": {
+        "dev": "parcel static/index.html -p 3000 --open",
+        "start": "parcel static/index.html -p 3000 --open",
+        "build": "parcel build static/index.html"
+    },
+    "keywords": [],
+    "author": "Begimay Abdraimova",
+    "license": "ISC",
+    "devDependencies": {
+        "@parcel/transformer-sass": "2.8.3",
+        "express": "4.18.2",
+        "parcel": "2.8.3"
+    },
+    "dependencies": {
+        "@anikin/parcel-transformer-handlebars": "1.0.9",
+        "@anikin/parcel-transformer-handlebars-precompile": "1.0.1",
+        "handlebars": "4.7.7",
+        "sass": "1.58.0"
+    }
+}

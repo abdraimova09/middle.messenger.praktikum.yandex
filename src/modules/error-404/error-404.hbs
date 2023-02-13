@@ -1,0 +1,10 @@
+{{> navbar}}
+{{#>container centered='true'}}
+    <div class="error-content">
+        <div>
+            {{> typography class="typography-title" content="404"}}
+            {{> typography class="typography-1" content="Не туда попали"}}
+        </div>
+        {{> button onclick="navigate('/chat')" class='text-button' content="Назад к чатам"}}
+    </div>
+{{/container}}
