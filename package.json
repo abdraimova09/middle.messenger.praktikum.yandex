@@ -3,8 +3,8 @@
     "version": "1.0.0",
     "description": "middle.messenger.praktikum.yandex",
     "scripts": {
-        "dev": "parcel static/index.html -p 3000",
-        "start": "parcel static/index.html -p 3000",
+        "dev": "parcel static/index.html -p 3000 --open",
+        "start": "parcel static/index.html -p 3000 --open",
         "build": "parcel build static/index.html"
     },
     "keywords": [],

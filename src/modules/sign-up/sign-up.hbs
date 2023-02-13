@@ -1,7 +1,7 @@
 {{> navbar}}
 {{#>container centered='true'}}
     {{#>paper}}
-    <form class="sign-up-form">
+    <form class="sign-up-form" onsubmit="event.preventDefault();navigate('/chat')">
         {{> typography class="typography-1" content="Регистрация"}}
         {{> textfield label="Почта" type="text" value="pochta@yandex.ru" name='email'}}
         {{> textfield label="Логин" type="text" value="ivanivanov" name='login'}}
@@ -10,7 +10,7 @@
         {{> textfield label="Телефон" type="text" value="+7 (909) 967 30 30" name='phone' }}
         {{> textfield label="Пароль" type="password" value="ivanivanov" name='password'}}
         {{> textfield label="Пароль (еще раз)" type="password" value="ivanivanov" name='password'}}
-        {{> button class='contained-button'  onclick="navigate('/chat')"  content="Зарегистрироваться"}}
+        {{> button type='submit' class='contained-button' content="Зарегистрироваться"}}
         {{> link onclick="navigate('/sign-in')" content="Войти"}}
     </form>
     {{/paper}}
