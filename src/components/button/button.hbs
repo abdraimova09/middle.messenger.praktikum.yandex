@@ -1,1 +1,5 @@
-<button onclick={{onclick}} class={{class}}>{{content}}</button>
+{{#if type}}
+    <button onclick={{onclick}} type={{type}} class={{class}}>{{content}}</button>
+{{else}}
+    <button onclick={{onclick}} class={{class}}>{{content}}</button>
+{{/if}}
